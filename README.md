@@ -14,7 +14,7 @@ php artisan module:install --type=https://github.com/wang-tech-commits/laravel-M
 
 php artisan vendor:publish
 
-选择 "Modules\Cms\Providers\UserServiceProvider"
+选择 "Modules\\Cms\\Providers\\UserServiceProvider"
 
 ```
 
@@ -22,6 +22,6 @@ php artisan vendor:publish
 
 ```json
 
-php artisan modules:modules:install-user
+php artisan modules:install-user
 
 ```
